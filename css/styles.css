@@ -374,6 +374,7 @@ h2, .h2 {
   font-size: 2rem;
 }
 
+
 h3, .h3 {
   font-size: 1.75rem;
 }
@@ -392,7 +393,11 @@ h6, .h6 {
 
 .lead {
   font-size: 1.25rem;
-  font-weight: 300;
+}
+
+.lead-strong{
+  font-size: 1.25rem;
+  font-weight: bolder;
 }
 
 .display-1 {
@@ -9978,7 +9983,7 @@ h3 {
   }
 }
 .page-section {
-  padding: 6rem 0;
+  padding: 3rem 0;
 }
 .page-section .page-section-heading {
   font-size: 2.25rem;
@@ -9988,6 +9993,21 @@ h3 {
   .page-section .page-section-heading {
     font-size: 3rem;
     line-height: 2.5rem;
+  }
+}
+
+
+.small-section {
+  padding: 2rem 0;
+}
+.small-section .small-section-heading {
+  font-size: 1.25rem;
+  line-height: 1rem;
+}
+@media (min-width: 992px) {
+  .small-section .small-section-heading {
+    font-size: 2rem;
+    line-height: 1.5rem;
   }
 }
 
